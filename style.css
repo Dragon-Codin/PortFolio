@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Oswald', sans-serif;
+}
+
+#bg { 
+    background: url(images/foto-personil.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #3aa5a4;
+    opacity: 0.08;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background:linear-gradient(#3aa5a4, #7ae5e4) ;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ /* container */
+.container{
+    padding-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 25px;    
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+
+/* sections-1 */
+.sections-1 p{
+    line-height: 2.5;
+}
+
+.sections-1 h4{
+    padding-top: 10px;
+    padding-bottom:  10px ;
+}
+.sections-1 {
+    background-color: white;
+    overflow: hidden;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+/* content-1 */
+.content-1 img{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 20px ;
+
+}
+/* sections-2  */
+.sections-2 h4{
+    
+    padding: 10px;
+}
+
+.sections-2{
+    padding: 50px;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+ .mars{
+    padding-top: 20px;
+    color: #a7afaf;
+}
+
+.content{
+    overflow: hidden;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+
+}
+
+.sections-2 img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-ms-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+}
+
+.sections-2:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+}
+
+.f{
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.g{
+    padding-bottom: 50px;
+}
+
+/* sections-3 */
+.sections-3{
+    padding: 50px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.sections-3 h4{
+    padding: 15px;
+}
+
+.sections-3 h5{
+    padding-bottom: 20px;
+}
+
+.sections-3 p{
+    padding-bottom: 35px;
+}
+
+.sections-3 span{
+    color: #a7afaf;
+}
+
+ /* sections-4 */
+.sections-4{
+    padding: 50px;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.sections-4 h4{
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+.sections-4 h5{
+    padding-bottom: 20px;
+}
+
+.sections-4 span{
+    color: #a7afaf;
+}
+
+.sections-4  h6{
+    color: #a7afaf;
+}
+
+.content-3{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+/* sections-5 */
+.sections-5{
+    padding: 50px;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.sections-5 h4{
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+.content-4{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.content-4 span{
+    padding-left: 8px;
+    color: #a7afaf;
+  }
+
+
+ /* sections-6 */
+.sections-6{
+    padding: 50px;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.sections-6 h4{
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+.social-links i{
+    padding-right: 20px;
+}
+.social-links h4{
+    float: left;
+    width: 33.33%;
+    padding-left: 20px ;
+    
+}
+
+.sections-6 img{
+    height: 20px;
+    width: 20px;
+}
+#titre{
+    margin-left: 400px;
+    color: azure;
+}
+
+#titre{
+    margin-bottom: 20px;
+}
+
+.social-links img{   
+    margin-right: 10px;
+}
+
+/*.box  */
+.box{
+    padding: 50px;
+background-color: white;
+overflow: hidden;
+margin-bottom: 20px;
+
+}
+.box h4{
+    padding: 15px;
+padding-bottom: 20px;
+}
+
+.test input{
+    width: 100%;
+    padding: 7px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+    background-color: rgb(231,  231 ,231);
+    border: none;
+}
+
+/* textarea */
+#eee{
+    padding: 15PX;
+    background-color: rgb(231,  231 ,231);
+    font-size: 1.1em;
+    border: none;
+    width: 1082px;
+    height: 165px;
+    border: none;
+}
+
+ /* button */
+form button{
+    border: none;
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    transition:  all 1ms ease 0;
+    margin-top: 20px;
+}
+
+form button:hover{
+    color: white;
+    background-color: #3aa5a4;
+    border: solid 1px white;
+}
+
